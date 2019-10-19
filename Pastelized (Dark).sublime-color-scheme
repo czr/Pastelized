@@ -944,7 +944,7 @@
       "foreground": "var(blue)"
     },
     {
-      "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
+      "scope": "entity.other.pseudo-element.css, entity.other.pseudo-class.css",
       "name": "CSS :pseudo",
       "font_style": "",
       "foreground": "var(orange)"
@@ -954,6 +954,12 @@
       "name": "CSS: #id",
       "font_style": "",
       "foreground": "var(blue)"
+    },
+    {
+      "scope": "string.unquoted.css",
+      "name": "CSS: unquoted string",
+      "font_style": "",
+      "foreground": "var(cyan)"
     },
 
     // diff
