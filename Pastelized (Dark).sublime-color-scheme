@@ -14,9 +14,9 @@
     "red"     : "#D15246",
     "magenta" : "#C17098",
     "violet"  : "#A3A1C5",
-    "blue"    : "#749FBC",
+    "blue"    : "#7FAFCE",
     "cyan"    : "#85BFB9",
-    "green"   : "#81B379"
+    "green"   : "#96BE91"
   },
   "globals": {
     "background": "var(bg0)",
