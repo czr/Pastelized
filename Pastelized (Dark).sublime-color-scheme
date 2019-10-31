@@ -1013,12 +1013,12 @@
     {
       "scope": "meta.mapping.key.json string.quoted.double",
       "name": "JSON: key",
-      "foreground": "var(blue)"
+      "foreground": "var(violet)"
     },
     {
       "scope": "meta.mapping.key.json punctuation.definition.string.begin.json, meta.mapping.key.json punctuation.definition.string.end.json",
       "name": "JSON: key quotes",
-      "foreground": "var(blue)"
+      "foreground": "var(violet)"
     },
 
 
