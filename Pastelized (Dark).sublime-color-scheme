@@ -58,7 +58,7 @@
       "foreground": "var(magenta)"
     },
     {
-      "scope": "variable.language, variable.other",
+      "scope": "variable.language",
       "name": "Variable",
       "foreground": "var(blue)"
     },
@@ -117,7 +117,8 @@
     },
     {
       "scope": "variable.parameter",
-      "name": "Function argument"
+      "name": "Function argument",
+      "foreground": "var(orange)"
     },
     {
       "scope": "entity.name.tag",
@@ -177,12 +178,12 @@
     {
       "scope": "string.quoted.double, string.quoted.single",
       "name": "Quoted String",
-      "foreground": "var(cyan)"
+      "foreground": "var(green)"
     },
     {
       "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "name": "Quotes",
-      "foreground": "var(cyan)"
+      "foreground": "var(green)"
     },
 
     // C
@@ -328,14 +329,31 @@
       "foreground": "var(fg0)"
     },
     {
-      "scope": "punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl",
-      "name": "Perl: quotes",
-      "foreground": "var(cyan)"
-    },
-    {
       "scope": "constant.character.escape.perl",
       "name": "Perl: \\char",
       "foreground": "var(red)"
+    },
+
+    // Modern Perl
+    {
+      "scope": "punctuation.definition.var.perl",
+      "name": "Perl: variable",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "support.function.method.perl",
+      "name": "Perl: variable",
+      "foreground": "var(cyan)"
+    },
+    {
+      "scope": "constant.language.string.perl",
+      "name": "Perl: keys and package names",
+      "foreground": "var(violet)"
+    },
+    {
+      "scope": "source.perl meta.string.qq.perl string.quoted.double.perl keyword.other.storage.perl storage.modifier.perl variable.parameter.perl variable.other.readwrite.global.perl",
+      "name": "Perl: interpolated variables",
+      "foreground": "var(blue)"
     },
 
     // PHP
